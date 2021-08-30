@@ -1,0 +1,107 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.sort__div {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(213, 213, 213);
+    justify-content: space-between;
+    min-height: 20px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex-direction: row;
+    margin: 5px;
+}
+
+.btn{
+  margin-right: 10px;
+}
+
+.item {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(20, 103, 112);
+    border: solid 1px black;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 20px;
+    align-items: flex-start;
+    cursor: pointer;
+    color: blanchedalmond;
+    flex-direction: column;
+}
+
+.feeds {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(20, 103, 112);
+    border: solid 1px black;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 20px;
+    align-items: center;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+
+.feedsCheck{
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(72, 179, 191);
+    border: solid 1px black;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 20px;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.feed {
+    font-size: 18px;
+}
+
+.feed__delete {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.delete {
+    display: flex;
+    min-height: 50px;
+    background-color: rgb(196, 194, 194);
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.button__delete {
+    height: 40px;
+    background-color: rgb(255, 49, 49);
+    color: aliceblue;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.link {
+    width: 70%;
+}
+
+.welcome {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.blocknone{
+    display: none;
+}
